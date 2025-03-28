@@ -1,4 +1,5 @@
-1. git init
+**1. git init**
+
    Explanation: Initializes a new Git repository. This is the first command to run when you want to start tracking a project with Git.
 
 Usage:
@@ -16,7 +17,8 @@ cd my-project
 git init
 ````
 
-2. git add
+**2. git add**
+
    Explanation: Adds changes in your working directory to the staging area, which is the first step before committing those changes. You can add individual files or all modified files.
 
 Usage:
@@ -37,7 +39,8 @@ git add index.html
 git add .   # Add all changes in the directory
 ````
 
-3. git commit
+**3. git commit**
+
    Explanation: Saves the staged changes to your local repository with a descriptive message.
 
 Usage:
@@ -55,7 +58,8 @@ Copy code
 git commit -m "Fixed the homepage layout"
 ````
 
-4. git status
+**4. git status**
+
    Explanation: Shows the status of your working directory and staging area. It will tell you which files are staged, modified, or untracked.
 
 Usage:
@@ -86,7 +90,8 @@ Changes to be committed:
 modified:   index.html
 ````
 
-5. git log
+**5. git log**
+
    Explanation: Shows the commit history of the repository, including commit hashes, author names, dates, and commit messages.
 
 Usage:
@@ -121,7 +126,8 @@ Date:   Wed Mar 24 16:22:48 2025 -0400
     Initial commit
 ````
 
-6. git clone
+**6. git clone**
+
    Explanation: Copies a remote repository to your local machine. It includes all history and branches from the remote repository.
 
 Usage:
@@ -140,7 +146,8 @@ Copy code
 git clone https://github.com/user/repository.git
 ````
 
-7. git branch
+**7. git branch**
+
    Explanation: Lists all branches in the repository. It can also be used to create new branches.
 
 Usage:
@@ -161,7 +168,8 @@ git branch          # List branches
 git branch feature  # Create a new branch named "feature"
 ````
 
-8. git checkout
+**8. git checkout**
+
    Explanation: Used to switch between branches or restore files. You can use it to move to a different branch or revert changes in your working directory.
 
 Usage:
@@ -180,7 +188,8 @@ Copy code
 git checkout feature  # Switch to the "feature" branch
 git checkout -- index.html  # Discard changes in index.html
 ````
-9. git merge
+**9. git merge**
+
    Explanation: Merges changes from one branch into another. It's typically used to combine a feature branch back into the main branch.
 
 Usage:
@@ -198,8 +207,10 @@ Copy code
 git checkout main      # Switch to the main branch
 git merge feature      # Merge the "feature" branch into main
 ````
-10. git remote
-    Explanation: Manages remote repositories. You can add, view, or remove remote repositories.
+
+**10. git remote**
+
+Explanation: Manages remote repositories. You can add, view, or remove remote repositories.
 
 Usage:
 
@@ -217,8 +228,9 @@ Copy code
 git remote add origin https://github.com/user/repository.git
 git remote -v
 ````
-11. git push
-    Explanation: Pushes local commits to a remote repository. You'll need to specify which branch you are pushing to.
+**11. git push**
+
+Explanation: Pushes local commits to a remote repository. You'll need to specify which branch you are pushing to.
 
 Usage:
 
@@ -234,8 +246,9 @@ Copy code
 ````
 git push origin main
 ````
-12. git pull
-    Explanation: Fetches and integrates changes from a remote repository into your local branch.
+**12. git pull**
+
+Explanation: Fetches and integrates changes from a remote repository into your local branch.
 
 Usage:
 
@@ -252,8 +265,9 @@ Copy code
 git pull origin main
 ````
 
-13. git diff
-    Explanation: Shows the differences between the working directory and the staging area or between two commits.
+**13. git diff**
+
+Explanation: Shows the differences between the working directory and the staging area or between two commits.
 
 Usage:
 
